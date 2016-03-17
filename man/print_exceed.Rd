@@ -14,6 +14,6 @@ print_exceed(z, type = c("k", "l")[1], ttl = "Count of exceedences")
 \item{ttl}{Character vector that contains the title}
 }
 \description{
-Print statistics for the cells of each layer of a raster object
+Print statistics for the cells of each layer of a Raster* object
 }
 

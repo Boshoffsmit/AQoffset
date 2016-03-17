@@ -12,7 +12,8 @@ API(conc = conc, verbose = FALSE, cast.df = TRUE, out = "out",
 
 \item{verbose}{Logical that displays function messages if TRUE.}
 
-\item{cast.df}{Logical that will cast the data frame if TRUE.}
+\item{cast.df}{Logical that will cast the data frame if TRUE. The value to be casted will be
+the melted calculated PSI}
 
 \item{out}{Character vector that contains the name of the casted
 data frame to be assigned to the global environment.}

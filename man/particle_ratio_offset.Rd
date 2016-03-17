@@ -24,7 +24,7 @@ others. This can be used to select (mask) from other rasters}
 give the result as exceedance counts (standard must not be NULL). effect = "chronic" aggregates
 the concentrations}
 
-\item{units}{Numeric of how many units is source 2 made up. If NULL report proportion default NULL}
+\item{units}{Numeric of how many units source 2 is made up of. If NULL report proportion default NULL}
 
 \item{minrat}{The minimum source ratio for which an offset cn be done}
 

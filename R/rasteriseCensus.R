@@ -5,9 +5,9 @@
 #' in each of a number of categories e.g. energy carrier for heating:
 #' as summarised in each row of the SPDF as points to a polygon   
 #' It can be used to: 
-#' make a total 
-#' make number of people 
-#' make sex distribution make age distribution
+#' make a total,  
+#' make number of people,  
+#' make sex distribution or make age distribution.
 #' 
 #' @param x A SpatialPolygonsDataFrame
 #' @param ref An extent object
@@ -42,7 +42,7 @@ rasteriseCensus <- function(x, ref = ext, verbose = FALSE, refres,
 
 #' Sexify
 #' 
-#' Change  SPDF to match a se proportion
+#' Change  SPDF to match a set proportion
 #' 
 #' @param x A SpatialPolygonsDataFrame
 #' @param prop Numeric that contains the sex proportion

@@ -9,7 +9,7 @@ rasterCREP(sl = endlist, pollutant = "PM10", cconc = year.brick,
   rrisk.only = TRUE, verbose = FALSE, ...)
 }
 \arguments{
-\item{sl}{Sicklist}
+\item{sl}{Sicklist containing end point info}
 
 \item{pollutant}{Character vector. The reference pollutant}
 

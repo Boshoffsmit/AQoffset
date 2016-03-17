@@ -1,4 +1,3 @@
-
 #' Summarise Sicklist
 #' 
 #' Script to summarise a sicklist into dataframe for presentation in report

@@ -39,7 +39,7 @@ ss = stackApply(conc, indices = idx, fun = mean)
 #ss = mask(ss, people) # this is only for populated areas
 concpop = overlay(ss, people, fun=function(x,y){return(x*y)})
 
-#select relevant NAQS
+#select relevent NAQS
 #print(NAQS)
 NAQS.rel = NAQS[nms, ap]
 # Intake 

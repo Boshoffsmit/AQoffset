@@ -3,7 +3,7 @@
 #' Create a new extent with NA-only columns cut out
 #' 
 #' @param r A raster
-#' @param out What to return. Either "extent" for an extent obejct or "raster"
+#' @param out What to return. Either "extent" or "raster" object, returning an extent object by default
 #' @references From an answer by Marie Auger-Methe on http://stackoverflow.com/questions/19680079/r-crop-no-data-of-a-raster
 #' @export
 

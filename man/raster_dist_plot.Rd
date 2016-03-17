@@ -13,13 +13,13 @@ raster_dist_plot(ss, multi = list(NULL, c("IndustryY_pm10",
 
 \item{multi}{A list containing a character vector of layer name components or NULL}
 
-\item{mn}{The main title of the resulting plot as a character string. Defaults to empty string}
+\item{mn}{The main title of the resulting plot as a character string.}
 
 \item{sb}{The plot subtitle as a character string}
 
 \item{th}{The theme to be applied temporarily to the plotting procedure}
 
-\item{scales}{A list with components x (columns) and     y (rows). Each of 
+\item{scales}{A list with components x (columns) and y (rows). Each of 
 these components must be a numeric vector of length 2 defining the range for each marginal plot.
 Default contains a logical that prevents drawing marginal graphics}
 

@@ -88,7 +88,7 @@ bar_exceed <- function(z,
 
 #' Print Exceed
 #'
-#' Print statistics for the cells of each layer of a raster object
+#' Print statistics for the cells of each layer of a Raster* object
 #'
 #' @param z A raster or raster brick
 #' @param type Character vector that contains the desired output. k = kable, l = LaTeX.

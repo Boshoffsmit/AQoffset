@@ -12,7 +12,7 @@
 #' @param effect Do the calculation in terms of an acute effect (effect = "acute"). This approach 
 #' give the result as exceedance counts (standard must not be NULL). effect = "chronic" aggregates
 #' the concentrations 
-#' @param units Numeric of how many units is source 2 made up. If NULL report proportion default NULL
+#' @param units Numeric of how many units source 2 is made up of. If NULL report proportion default NULL
 #' @param minrat The minimum source ratio for which an offset cn be done
 #' @param source1 Numeric vector of the same length as nlayers(conc1). Total emissions
 #' @param conc1 A Raster object with concentrations resulting from source1. Average emissions

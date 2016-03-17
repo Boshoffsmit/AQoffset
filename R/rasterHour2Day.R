@@ -1,7 +1,3 @@
-# hour to day
-# assumes: names in the format
-# slnames <- paste("day_",(as.numeric(gsub("X.001.11.30.", "", names(cppm10), 20)) %/%24)+1,"_hour_", as.numeric(gsub("X.001.11.30.", "", names(cppm10), 20)) %%24, sep="")
-
 #' Hour to day
 #' 
 #' Converts an hour raster to a day raster
@@ -22,3 +18,5 @@ rasterH2D <- function(s, knip = FALSE){
   r_24h <- stackApply(s, indices = dateidx, mean, na.rm = TRUE )
   r_24h
 }
+# assumes: names in the format
+# slnames <- paste("day_",(as.numeric(gsub("X.001.11.30.", "", names(cppm10), 20)) %/%24)+1,"_hour_", as.numeric(gsub("X.001.11.30.", "", names(cppm10), 20)) %%24, sep="")

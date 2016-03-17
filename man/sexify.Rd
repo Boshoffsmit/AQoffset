@@ -12,6 +12,6 @@ sexify(x, prop = 0.5)
 \item{prop}{Numeric that contains the sex proportion}
 }
 \description{
-Change  SPDF to match a se proportion
+Change  SPDF to match a set proportion
 }
 

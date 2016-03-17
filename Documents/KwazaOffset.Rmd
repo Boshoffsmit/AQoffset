@@ -33,7 +33,7 @@ if (USER == "AH") {
 
 
 if (USER == "BS") {
-  projdir <- "C:/Users/Willem/Desktop/AQOffset/AQoffset"
+  projdir <- "C:/Users/Willem/Desktop/AQOffset/AQoffset/"
   rdir <-  normalizePath(paste(projdir, "R/", sep=""))
   datadir <- normalizePath(paste(projdir, "Data/", sep = ""))
 }

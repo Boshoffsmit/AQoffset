@@ -2,7 +2,7 @@
 #' 
 #' Makes a 4km raster of a midpoint of an extent object
 #' 
-#' @param r Raster or extent objectt
+#' @param r Raster or extent object
 #' @param grdsize Numeric. The grid size.
 #' @param diam Numeric. The diameter.
 #' @param crs Character or object of class CRS.PROJ.4 type description of a Coordinate 

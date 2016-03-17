@@ -35,7 +35,8 @@ PSI <- function(x, Exp.met, verbose=FALSE){
 #' 
 #' @param conc Raster that contains the concentrations.
 #' @param verbose Logical that displays function messages if TRUE.
-#' @param cast.df Logical that will cast the data frame if TRUE.
+#' @param cast.df Logical that will cast the data frame if TRUE. The value to be casted will be
+#' the melted calculated PSI
 #' @param out Character vector that contains the name of the casted
 #' data frame to be assigned to the global environment.
 #' @param TZ Character vector that contains a location

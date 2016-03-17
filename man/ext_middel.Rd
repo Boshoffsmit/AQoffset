@@ -8,7 +8,7 @@ ext_middel(r, grdsize = 4, diam = 12,
   crs = "+proj=utm + south + zone=35 ellps=WGS84")
 }
 \arguments{
-\item{r}{Raster or extent objectt}
+\item{r}{Raster or extent object}
 
 \item{grdsize}{Numeric. The grid size.}
 

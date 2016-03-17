@@ -29,6 +29,7 @@
 
 #' @examples 
 #' cases = people$total * rnorm(n = ncell(people), mean = 0.01, sd = 0.003)
+#' @export
 
 rasterConcentrationResponse <- function(conc, 
                                         popr, 
@@ -161,7 +162,7 @@ rasterConcentrationResponse <- function(conc,
 #' 
 #' Function uses rasterConcentrationResponse, but adds specific names and categories
 #' 
-#' @param sl Sicklist
+#' @param sl Sicklist containing end point info
 #' @param pollutant Character vector. The reference pollutant
 #' @param cconc A ranster of concentration values
 #' @param ppopr A raster of population numbers

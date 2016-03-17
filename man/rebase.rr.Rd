@@ -2,7 +2,7 @@
 % Please edit documentation in R/End.Point.Info.China.R
 \name{rebase.rr}
 \alias{rebase.rr}
-\title{Rebase RR}
+\title{Rebase Relative Risk}
 \usage{
 rebase.rr(RR, base.orig = 10)
 }
@@ -12,6 +12,6 @@ rebase.rr(RR, base.orig = 10)
 \item{base.orig}{Numeric. The original base concentration}
 }
 \description{
-Modifies the base concentrtion of a raster
+Modifies the base concentration of a raster
 }
 

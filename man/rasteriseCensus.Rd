@@ -28,8 +28,8 @@ The function randomly assign the correct number of sample units
 in each of a number of categories e.g. energy carrier for heating:
 as summarised in each row of the SPDF as points to a polygon   
 It can be used to: 
-make a total 
-make number of people 
-make sex distribution make age distribution
+make a total,  
+make number of people,  
+make sex distribution or make age distribution.
 }
 

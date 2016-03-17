@@ -1,8 +1,8 @@
 ### Health end-point info for use in dose-repsponse functions - China 
 
-#' Rebase RR
+#' Rebase Relative Risk
 #' 
-#' Modifies the base concentrtion of a raster
+#' Modifies the base concentration of a raster
 #' 
 #' @param RR A raster
 #' @param base.orig Numeric. The original base concentration

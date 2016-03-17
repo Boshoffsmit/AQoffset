@@ -9,7 +9,7 @@ knipNA(r, out = c("extent", "raster")[1])
 \arguments{
 \item{r}{A raster}
 
-\item{out}{What to return. Either "extent" for an extent obejct or "raster"}
+\item{out}{What to return. Either "extent" or "raster" object, returning an extent object by default}
 }
 \description{
 Create a new extent with NA-only columns cut out

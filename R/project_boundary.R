@@ -18,16 +18,16 @@
 #' @param target_period Character Apply function for a chronic or an acute scenario or both. 
 #' options are "chronic", "acute", "both". Defaults to "both"
 #' @param thresh_acute Numeric The threshold for the 24 hour averaging period
-#' @param period_acute The period for which the acute threshold is valid. Default 1/365
+#' @param period_acute Numeric The period for which the acute threshold is valid. Default 1/365
 #' @param thresh_chronic Numeric The threshold for the 1 year averaging period
-#' @param period_chronic The period for which the chronic threshold is valid. Default 365/365
+#' @param period_chronic Numeric The period for which the chronic threshold is valid. Default 365/365
 #' @param chronic_cutoff Numeric Proportion data needed to construct a valid chronic estimate. 
 #' Default 0.9
-#' @param only.mask Logical If TRUE the function only returns a mask and not the raster
 #' @param verbose Logical Messages or not
 #' @param return.mask Logical that assigns the masked resolution to the global environment
 #' when TRUE
 #' @param maskname Character vector. The name attributed to the masked resolution
+#' @param only.mask Logical If TRUE the function only returns a mask and not the raster
 #' @export
 
 project_boundary <- function(r, 
